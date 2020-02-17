@@ -20,7 +20,7 @@ provider:
   region: ${opt:region, 'eu-central-1'}
   deploymentBucket:
     name: ${env:SLS_DEPLOY_BUCKET}
-  deploymentPrefix: @kaskadi/${self:service.name}
+  deploymentPrefix: '@kaskadi/${self:service.name}'
 
 resources:
   Resources:
