@@ -2,38 +2,6 @@
 
 ****
 
-❌ **This section can be deleted when done with all the preliminary work** ❌
-
-# :computer: Creating a new API from this template :computer:
-
-**Checklist (delete items when done)**
-- create a new repository and choose this repository (`kaskadi-webhooks-api`) as template
-- clone the new repository to a local working copy
-- set secrets up ([help](#Set-secrets-up))
-- install all dependencies via `npm i`
-- configure your API in its `serverless.yml` ([here](./serverless.yml)) config file for deployment
-- when you feel like your API is ready for deployment, go [here](./.github/workflows/deploy.yml) and change the `command` field to `deploy -v`
-
-**Attention:** if you wish to use kaskadi's CLI tools, make sure to have `kaskadi-cli` installed globally (`npm i -g kaskadi-cli`)
-
-## Set secrets up
-
-Before pushing for the first time, please setup secrets on this repository.
-
-**Steps:**
-- go to your [repositorys secrets setting](../../settings/secrets)
-- click on _Add a new secret_ for each secret you want to add
-
-**What secrets need to be set:**
-- `AWS_KEY_ID`
-- `AWS_KEY_SECRET`
-- `SLS_DEPLOY_BUCKET`
-
-`AWS_KEY_ID` & `AWS_KEY_SECRET`: those are the credentials of a role which has enough permission to publish a new API.
-`SLS_DEPLOY_BUCKET`: this is the bucket where the _Serverless_ build should be uploaded at deployment.
-
-****
-
 # :warning: Disclaimer :warning:
 
 On first deployment you may encounter an error message related to an issue with your stage.
@@ -66,5 +34,7 @@ If the custom domain you wish to use hasn't been created yet (list of custom dom
 **Case 2: using an existing custom domain**
 
 For this, simply follow **_Case 1_** from **_Step 3_**.
+
+****
 
 :point_down: **Your documentation here** :point_down:
