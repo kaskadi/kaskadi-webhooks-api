@@ -1,3 +1,7 @@
+**GitHub Actions workflows status**
+
+![](https://img.shields.io/github/workflow/status/kaskadi/kaskadi-webhooks-api/deploy)
+
 :point_right: **Badges here** :point_left:
 
 ****
