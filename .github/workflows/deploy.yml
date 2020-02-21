@@ -1,6 +1,9 @@
 name: deploy
 on:
   push:
+    branches:
+      - 'master'
+      - 'release/**'
     paths:
       - 'serverless.yml'
 jobs:
